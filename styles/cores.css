@@ -1,0 +1,32 @@
+:root {
+    --bgBody: white;
+    --bg2: beige;
+    --texto: black;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --bgBody: #2b2b2b;
+        --bg2: rgb(75, 75, 52);
+        --texto: #fafafa;
+    }
+
+    .redes-sociais_logo {
+        filter: invert(1);
+    }
+}
+
+body {
+    background-color: var(--bgBody);
+    color: var(--texto);
+}
+
+details summary {
+    background-color: tomato;
+    border-bottom: 2px solid darkred;
+    color: white;
+}
+
+details table tr:nth-child(even) {
+    background-color: var(--bg2);
+}

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 5vw;
+    width: 95vw;
+    font-family: "Segoe UI Variable Display", "Segoe UI", "Noto Sans", Roboto, Helvetica, sans-serif;
+    margin-bottom: 15vh;
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}
+
+header h1 {
+    grid-column: 1;
+}
+
+.logo-pizza {
+    grid-column: 2;
+    width: 100%;
+}
+
+#tabela-redes-sociais a {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-column-gap: 15px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.redes-sociais_logo {
+    width: 100%;
+    grid-column: 1;
+}
+
+.redes-sociais_nome {
+    grid-column: 2;
+}
+
+main {
+    margin-top: 25px;
+}
+
+details {
+    border-radius: 15px;
+    margin-bottom: 1vh;
+}
+
+details summary {
+    padding: 25px;
+    border-radius: 35px;
+}
+
+details table {
+    width: 100%;
+    border: none;
+}
+
+details table td {
+    padding: 20px;
+    border: none;
+}
+
+.item {
+    width: 65%;
+}
+
+.preco::before {
+    content: "R$ ";
+}
+
+.preco {
+    width: 35%;
+    text-align: right;
+}
