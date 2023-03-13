@@ -29,6 +29,7 @@ header h1 {
     grid-column-gap: 15px;
     align-items: center;
     text-decoration: none;
+    color: inherit;
 }
 
 .redes-sociais_logo {
