@@ -4,9 +4,5 @@
 
 ## Prints
 
-<div style="display: flex; flex-flow: row nowrap;">
-    <img src="/prints/Captura-Cardapio.jpeg" alt="Captura de tela do cardápio">
-    <img src="/prints/Cardapio2.jpg" alt="Caputra de tela do cardápio">
-</div>
-
-
+<img src="/prints/Captura-Cardapio.jpeg" alt="Captura de tela do cardápio" style="width:45%">
+<img src="/prints/Cardapio2.jpg" alt="Caputra de tela do cardápio" style="width:45%">
