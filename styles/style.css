@@ -77,3 +77,11 @@ details table td {
     width: 35%;
     text-align: right;
 }
+
+@media only screen and (min-width: 900px) {
+    body {
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
